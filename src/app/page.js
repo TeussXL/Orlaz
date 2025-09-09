@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "./page.module.css";
 import Header from "@/components/Header";
 import Banner from "@/components/Banner";
+import Cards from "@/components/Cards";
 
 export default function Home() {
     return (
@@ -18,6 +19,8 @@ export default function Home() {
             <Header />
 
             <Banner />
+
+            <Cards />
         </>
     );
 }
